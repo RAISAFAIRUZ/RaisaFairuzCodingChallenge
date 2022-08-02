@@ -15,7 +15,6 @@ public class Main extends Application {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Parsa's Label"));
 			Scene scene = new Scene(root,400,400);
-			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Raisa's Project");
 			primaryStage.show();
