@@ -13,6 +13,7 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Parsa's Label"));
+			root.getChildren().add(new Label("Parsa's Branch"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Raisa's Project");
